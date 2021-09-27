@@ -1,4 +1,4 @@
-body, p, div {
+body, p, h1 {
     margin: 0 0 0 0;
 }
 
@@ -7,13 +7,14 @@ a {
     color: white;
 }
 
-#portada {
-    display: flex;
+#presentacion {
+
 }
 
-#portada_inferior {
+#portada {
     background-color: black;
-    color: white;
-    height: 25vh;
-    width: 100%;
+
+}
+
+#tarjetas {
 }
