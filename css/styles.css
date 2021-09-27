@@ -7,14 +7,10 @@ a {
     color: white;
 }
 
-#presentacion {
-
+#espacio_inicial {
+    height: 30vw;
 }
 
-#portada {
-    background-color: black;
-
-}
-
-#tarjetas {
+#espacio {
+    height: 1px;
 }
