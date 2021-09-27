@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="author" content="Fabrizio Pironi">
+    <!-- Fabrizio Pironi -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/menu.css">
+
+    <title>Menú</title>
+</head>
+<body>
+
+    <!-------------------- Barra de navegacion ---------------------------------------------------------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+    
+            <!-- Pizzeria -->
+
+            <span class="navbar-brand">
+                <h1><a href="../index.html">Pizzeria #081</a></h1>
+            </span>    
+            
+            <!-- Slogan -->
+
+            <span class="navbar-text">
+                <p>I Partenopei</p>
+            </span>
+
+            <!-- Colapsable -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenido">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse justify-content-end" id="contenido">
+                <ul class="navbar-nav">
+                    <li class="nav-item p-2">
+                        <div class="container-fluid">
+                            <a href="/pages/contacto.html" class="navbar-link d-flex justify-content-end">Contáctanos</a>
+                        </div>
+                    </li>
+                    <li class="nav-item p-2">
+                        <div class="container-fluid">
+                            <a href="/index.html" class="navbar-link d-flex justify-content-end">Home</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-------------------------------------------------------------------------------------------------------------------->
+
+    <div class="d-flex justify-content-center mt-4">
+        <h1>Menú</h1>
+    </div>
+
+    <div class="accordion mt-5">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="header_clasica">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colapso_clasica">
+                    Pizzas clásicas
+                </button>
+            </h2>
+
+            <div id="colapso_clasica" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    
+                    <div class="row border-bottom border-dark pb-1">
+                        <div class="col-10">
+                            <h3>Focaccia Classica</h3>
+                            <p>Pan Pizza, orégano, ajo, sal y aceite</p>
+                            <i><p>Pan pizza, origano, aglio, sale e olio</p></i>
+                        </div>
+
+                        <div class="col-1">
+                            <p>2.50€</p>
+                        </div>
+
+                        <div class="col-1">
+                            <p>-</p>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom border-dark pb-1">
+                        <div class="col-10">
+                            <h3>Focaccia Gourmet</h3>
+                            <p>Pan Pizza, parmesano rallado, rucola, tomate cherry y aceite</p>
+                            <i><p>Pan pizza, Scaglie di parmigiano, rucola, pomodorini e olio</p></i>
+                        </div>
+
+                        <div class="col-1">
+                            <p>5.00€</p>
+                        </div>
+
+                        <div class="col-1">
+                            <p>-</p>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom border-dark pb-1">
+                        <div class="col-10">
+                            <h3>Marinara</h3>
+                            <p>Tomate, albahaca, ajo y orégano</p>
+                            <i><p>Pomodoro, basillico, aglio, origano e olio</p></i>
+                        </div>
+
+                        <div class="col-1">
+                            <p>5.00€</p>
+                        </div>
+
+                        <div class="col-1">
+                            <p>8.00€</p>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom border-dark pb-1">
+                        <div class="col-10">
+                            <h3>Margherita</h3>
+                            <p>Tomate, Mozzarella, albahaca y parmesano</p>
+                            <i><p>Pomodoro, fior di latte, basillico e parmigiano</p></i>
+                        </div>
+
+                        <div class="col-1">
+                            <p>6.00€</p>
+                        </div>
+
+                        <div class="col-1">
+                            <p>12.00€</p>
+                        </div>
+                    </div>
+
+                    <div class="row border-bottom border-dark pb-1">
+                        <div class="col-10">
+                            <h3>Jamoncita</h3>
+                            <p>Tomate, Mozzarella, jamón York, albahaca y parmesano</p>
+                            <i><p>Pomodoro, fior di latte, prosciutto cotto, basillico e parmigiano</p></i>
+                        </div>
+
+                        <div class="col-1">
+                            <p>7.00€</p>
+                        </div>
+
+                        <div class="col-1">
+                            <p>13.00€</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Especiales -->
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="header_especial">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colapso_especial">
+                    Pizzas especiales
+                </button>
+            </h2>
+
+            <div id="colapso_especial" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <p>Todas las pizzas van aqui</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="header_ensalada">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colapso_ensalada">
+                    Ensaladas
+                </button>
+            </h2>
+
+            <div id="colapso_ensalada" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <p>Todas las pizzas van aqui</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="header_postres">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colapso_postres">
+                    Postres
+                </button>
+            </h2>
+
+            <div id="colapso_postres" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <p>Todas las pizzas van aqui</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="header_bebidas">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#colapso_bebidas">
+                    Bebidas
+                </button>
+            </h2>
+
+            <div id="colapso_bebidas" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                    <p>Todas las pizzas van aqui</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="d-flex justify-content-center mt-5">
+        <a href="../pages/contacto.html" class="btn btn-primary mt-2">Donde puedo ordenar?</a> 
+
+    </div>
+
+
+</body>
+</html>

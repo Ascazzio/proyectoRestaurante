@@ -14,3 +14,7 @@ body {
     height: 210px;
     width: 210px;
 }
+
+#frontal {
+    max-height: 50vh;
+}
